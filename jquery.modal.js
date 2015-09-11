@@ -146,7 +146,7 @@
     center: function() {
       this.$elm.css({
         position: 'fixed',
-        top: "50%",
+        top: "20%",
         left: "50%",
         marginTop: - (this.$elm.outerHeight() / 2),
         marginLeft: - (this.$elm.outerWidth() / 2),
@@ -185,7 +185,7 @@
   $.modal.defaults = {
     overlay: "#000",
     opacity: 0.75,
-    zIndex: 1,
+    zIndex: 1000,
     escapeClose: true,
     clickClose: true,
     closeText: 'Close',
